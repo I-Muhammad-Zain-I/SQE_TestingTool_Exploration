@@ -9,7 +9,7 @@ To Test the UserAPIs clone this repo using:
 ```
 $> git clone
 ```
-then change directory to api in terminal
+then change directory to **api** in terminal
 
 ```
 $../api> npm install 

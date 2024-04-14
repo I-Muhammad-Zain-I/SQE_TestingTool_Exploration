@@ -31,7 +31,7 @@ app.post('/api/users', (req, res) => {
         id: Math.floor(Math.random() * 500),
         username: username
       })
-      return res.status(200).json({'message': 'User created successfully'});
+      return res.status(201).json({'message': 'User created successfully'});
     }
     res.status(400).json({ error: 'Username is required' });
 
@@ -42,10 +42,6 @@ app.post('/api/users', (req, res) => {
 
 
 });
-
-
-
-
 
 app.put('/api/users', (req, res) => {
   console.log(req.body)
